@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+font-family:sans-serif; 
+}
+nav{
+    max-width:100%;
+    height: 70px; 
+  background-color:transparent ;
+  position:fixed ;
+
+}
+
+nav ul a{
+    /* list-style-type: none; */
+    text-decoration:none  ;
+list-style-type: none
+
+}
+ul{
+display: flex;
+flex-direction: row;
+position: absolute; 
+top: 30px;
+
+}
+.carvilla{
+font-family:serif ;
+padding-left: 10%
+}
+.home{
+padding-left:40% ;
+color:rgb(88, 18, 180) 
+}
+nav ul a{
+    padding-right: 20px;
+    color: whitesmoke;
+    font-size:20px 
+
+}
+nav ul a:hover{
+color:rgb(88, 18, 180) 
+}
+.carvilla:hover{
+    color: whitesmoke;
+ }
+#fdiv{
+    max-width:100% ;
+    height: 600px;
+    background-image:url("IMG_20240803_144442_488.jpg") ;
+    background-repeat: no-repeat;
+background-size: 100%;
+color: whitesmoke;
+text-align: center;
+scroll-behavior: auto
+
+}
+#fp{
+    padding-left:27% ;
+    padding-right:27% ;
+margin-top:25px;
+line-height: 25px 
+}
+#fh1{
+    padding-top: 190px
+}
+#fbu{
+    background-color:rgb(88, 18, 180);
+    padding-left:40px;
+    padding-right:30px;
+    padding: 10px; 
+    font-size: 20px;
+    color: whitesmoke;
+    margin-top: 30px
+}
+#tablediv{
+    min-width: 70%;
+height: 250px;
+background-color: rgb(241, 238, 238);
+z-index: 1;
+position:absolute ;
+margin-top:-110px;
+box-shadow: 3ch;
+margin-left: 12%;
+padding-left: 50px;
+padding-right: 50px;
+padding-top:15px;
+padding-bottom: 15px 
+}
+table{
+    min-width: 100%;
+    position: absolute;
+    top:90px;
+}
+option.opt{
+    padding: 15px;
+    /* padding-right: 25px; */
+    /* padding-left: 25px; */
+padding-top:30px;
+margin-top: 10px
+}
+#seconddiv{
+min-width: 70%;
+height: 600px;
+box-shadow:thistle;
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.div3{
+min-width: 5%;
+height:330px ;
+text-align: center;
+position: relative;
+top: 250px;
+line-height: 30px
+}
+hr{
+    width: 20px;
+    height: 2px;
+    background-color: blue;
+    margin-left: 175px;
+    margin-top: 30px
+}
+.img{
+    width: 50px;
+height: 50px;
+border-radius: 100%;
+margin-bottom: 20px
+
+}
+.div3:hover{
+    min-width: 5%;
+    height:330px ;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    line-height: 30px;
+    background-color: rgba(20, 20, 209, 0.726);
+padding-top:30px 
+
+}
+#divred{
+    min-width: 100%;
+height: 150px;
+text-align:center;
+margin-top: 150px;
+
+}
+#hr2{
+    margin-left:650px ;
+    width: 60px;
+}
+#divcar{
+    width: 100%;
+height: 600px;
+
+
+}
+#divred2{
+    min-width: 70%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 80px;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.096)
+}
+#divcar{
+    width:55%;
+    height: 400px;
+    margin-left:50px ;
+  
+}
+#divp{
+    width:45%;
+    height: 310px;   
+    line-height: 30px;
+    /* background-color: rgba(128, 128, 128, 0.651) ; */
+    padding: 40px;
+    margin-left: 0px
+}
+#immg{
+    width: 80%;
+    border-radius: 20px
+}
+#div4car{
+min-width: 100%;
+height: 350px;
+display: flex;
+flex-direction: row;
+justify-content:center;
+/* margin-left:5%; */
+margin-right: 10% ;
+line-height:30px ;
+text-align: left;
+margin-left:15px 
+}
+#cardiv{
+min-width:50px;
+height: 550px;
+}
+#cars{
+    width:100%;
+    height: 120px;
+}
+#table2{
+    position: relative;
+    top: 5px;
+    margin-top:50px;
+    margin-bottom: 50px ;
+    /* width: 80%; */
+}
+#td{
+    border: 1px solid gray;
+border-collapse:collapse;
+
+}
+#div4cars{
+    min-width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /* margin-left:5%; */
+    margin-right: 10% ;
+    line-height:30px ;
+    text-align: left;
+    margin-left:15px 
+    }
+
+#seconddivs{
+min-width: 70%;
+height: 400px;
+box-shadow:thistle;
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+margin-left: 10%;
+margin-right: 10%;
+/* margin-top:10px  */
+}
+
+#divred{
+    min-width: 100%;
+height: 0px;
+text-align:center;
+margin-top: 150px;
+
+}
+footer{
+    min-width: 100%;
+
+    background-color: rgb(39, 31, 31);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    position: relative;
+    top: 220px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
